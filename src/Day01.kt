@@ -9,10 +9,10 @@ fun main() {
             var more = true;
             var safe = true;
             for (f in 0 until floors.size -1) {
-                if (floors[f] >floors[f+1]) {
+                if (floors[f] >=floors[f+1]) {
                     more = false;
                 }
-                if (floors[f]<floors[f+1]){
+                if (floors[f]<=floors[f+1]){
                     less = false;
                 }
 
