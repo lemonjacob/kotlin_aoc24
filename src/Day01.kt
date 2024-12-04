@@ -1,4 +1,3 @@
-import java.io.File
 import kotlin.math.abs
 
 fun main() {
@@ -40,7 +39,7 @@ fun main() {
                     times++
                 }
             }
-            sum += times*i;
+            sum += times*i
         }
         return sum
     }
