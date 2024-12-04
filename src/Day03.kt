@@ -10,7 +10,6 @@ fun main() {
             val (num1,num2) = match.destructured
             sum += num1.toInt() * num2.toInt()
         }
-        sum.println()
         return sum
     }
 
@@ -31,18 +30,15 @@ fun main() {
             }
 
         }
-        sum.println()
         return sum
     }
-
-    // Test if implementation meets criteria from the description, like:
-
-    // Or read a large test input from the `src/Day01_test.txt` file:
-    val testInput = File("src/test.txt").readText()
-    check(part2(testInput) == 48)
+    val testInput1 = File("src/Day03_test01.txt").readText()
+    check(part1(testInput1) == 161)
+    val testInput2 = File("src/Day03_test02.txt").readText()
+    check(part2(testInput2) == 48)
 
     // Read the input from the `src/Day01.txt` file.
-    val input = File("src/input.txt").readText()
-
+    val input = File("src/Day03.txt").readText()
+    println(part1(input))
     println(part2(input))
 }
