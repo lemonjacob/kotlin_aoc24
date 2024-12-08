@@ -32,13 +32,13 @@ fun main() {
         }
         return sum
     }
-    val testInput1 = File("src/Day03_test01.txt").readText()
+    val testInput1 = File("src/input/Day03_test01.txt").readText()
     check(part1(testInput1) == 161)
-    val testInput2 = File("src/Day03_test02.txt").readText()
+    val testInput2 = File("src/input/Day03_test02.txt").readText()
     check(part2(testInput2) == 48)
 
     // Read the input from the `src/Day01.txt` file.
-    val input = File("src/Day03.txt").readText()
+    val input = File("src/input/Day03.txt").readText()
     println(part1(input))
     println(part2(input))
 }

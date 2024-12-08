@@ -69,8 +69,8 @@ fun main() {
         return sum
     }
 
-    check(part1(readInput("test")) == 143)
-    check(part2(readInput("test")) == 123)
+    check(part1(readInput("Day05_test")) == 143)
+    check(part2(readInput("Day05_test")) == 123)
 
     val input = readInput("Day05")
     part1(input).println()
